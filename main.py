@@ -108,11 +108,11 @@ class Library:
         self._movie_library.remove(movie)
 
     def menu(self):
-        print("0 -> Add movie")
-        print("1 -> Remove movie")
-        print("2 -> Print movies lib")
-        print("3 -> Save movies lib")
-        print("q -> Exit")
+        print("0 -> Add movie.")
+        print("1 -> Remove movie.")
+        print("2 -> Print movies lib.")
+        print("3 -> Save movies lib.")
+        print("q -> Exit.")
         print()
         choice = input("Select an option (0-3, q): ")
         if choice == "0":
